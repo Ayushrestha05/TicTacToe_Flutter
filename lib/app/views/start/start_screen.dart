@@ -26,8 +26,12 @@ class StartScreen extends StatelessWidget {
                       .navigateTo(Routes.gameScreen, arguments: 'ai');
                 },
                 child: Text('Player VS AI')),
-            ElevatedButton(
-                onPressed: () {}, child: Text('Player VS Player (Bluetooth)')),
+            // ElevatedButton(
+            //     onPressed: () {
+            //       locator<NavigationService>()
+            //           .navigateTo(Routes.bluetoothSearchScreen);
+            //     },
+            //     child: Text('Player VS Player (Bluetooth)')),
           ],
         ),
       )),
